@@ -1,0 +1,131 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1{
+	text-align: center;
+	font-size: : 250%;
+	text-transform: uppercase;
+	padding: 10% 0;
+	color:white;
+    font-family:'Quicksand';
+
+}
+
+h2{
+	text-align: center;
+	font-size: 300%;
+	color:black;
+	padding: 5% 15%;
+	background:rgba(100,100,100,.9);
+	height: 400px;
+}
+
+/*------ Start Navigation Snapping -----*/
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+   	background:rgba(0, 0, 0, 0);
+}
+
+
+
+
+#wrapper {
+	padding-left:10%;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+   background: rgba(60,60,60,.9); 
+}
+
+#nav {
+    list-style: none;
+    width:100%;
+    float:right;
+    position: relative;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand-Regular.otf);
+}
+
+#nav li {
+    float: left;
+    display: block;
+    height: 40px;
+    width: 20%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 150%;
+    box-sizing:border-box;
+    color:white ;
+    border-left: 1px inline rgba(225,225,225,.5);
+    border-right: 1px inline rgba(225,225,225,.5);
+}
+#nav li:hover {
+    float: left;
+    display: block;
+    height: 40px;
+    width: 20%;
+    background: rgba(75,75,75,.9);
+    text-align: center;
+    line-height: 40px;
+    box-sizing:border-box;
+    color:white ;
+    border-left: 1px inline rgba(225,225,225,.5);
+    border-right: 1px inline rgba(225,225,225,.5);
+}
+#span {
+    height: 6px;
+    width: 15%;
+    background: white ;
+    position: absolute;
+    bottom: 0;
+    -webkit-transition: all .1s;
+}
+#content, #content1, #content2, #content3 {
+	height: 1200px;
+	width: 100%; 
+}
+
+.emailBox{
+	width: 10%;
+}
+
+#contactWrapper{
+
+	background:url("../images/BubblesCinemagraph.gif") no-repeat;
+	background-size: 100% 500px;
+}
+
+.contact{
+	padding-top:350px;
+	padding-bottom:125px;
+	width: 60%;
+	margin-left:5%;
+}
+
+.w3-btn{
+	height:100%;
+}
+/*------ Start Parallax-----*/
+
+.parallax {
+	background:url("../images/MetallicBackground.jpg") repeat fixed;
+}
+.parallax-inner{
+	padding-top: 400px;
+	padding-bottom: 400px;
+	text-align:center;
+	font-size:300%;
+	color:white;
+}
+
+/*------ End Parallax ----- */

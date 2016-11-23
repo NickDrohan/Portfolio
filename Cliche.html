@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web 2.016</title>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/cliche.css">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+	<div id="nav-container">
+		<div id="nav">
+			<div id="span"></div>
+
+			<ul>
+				<a href="#anchor1"><li>Capture</li></a>
+				<a href="#anchor2"><li>Interact</li></a>
+				<a href="#anchor3"><li>Redirect</li></a>
+				<a href="#anchor4"><li>Diversify</li></a>
+			</ul>
+	
+
+			
+			<div class="dropdown">
+					<img src="images/menu_icon.png" width="36" height="36" float="right" align="right">
+					<div class="dropdown-content">
+					    <a href="SubPage.html">About This Page</a>
+					    <a href="#">Marketing</a>
+					    <a href="#">Meta</a>
+					</div>
+				
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="container">
+		<div id="anchor1">
+			<div class="space">
+				
+
+
+
+
+
+			</div>
+			<div class="heading">
+				
+
+
+						Capture
+
+
+			</div>
+			<div class="space"></div>
+			<div class="content1">
+				
+
+						<img src="images/SunglassesCinema.gif" width="100%">
+
+
+			</div>
+			<div class="p">
+				
+
+
+						<p> Bold Cinemagraphs over Parallaxing Backgrounds</p>
+
+
+			</div>
+		</div>
+
+		<div id="anchor2">
+			<div class="space">
+				
+
+
+
+
+
+			</div>
+			<div class="heading">
+				
+
+
+						Interact
+
+
+			</div>
+			<div class="space"></div>
+			<div class="content2">
+				
+					<img src="images/BubblesCinemagraph.gif" style="position: relative; z-index: 2; width: 100%;" />
+
+					<div id="contactWrapper">
+						<div class="contact">
+							<div class="w3-row-padding">
+								<div class="w3-half">
+									<input class="w3-input w3-border" type="text" name="from" placeholder="Email Address">
+								</div>
+								<div class="w3-half">
+									<input class="w3-btn w3-large w3-green" type="submit" name="submit" value="Join">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+			</div>
+			<div class="p">
+				
+
+
+						<p>Fun Images of People Near Calls to Action</p>
+
+
+			</div>
+		</div>	
+		
+		<div id="anchor3">
+			<div class="space">
+				
+
+
+
+
+
+			</div>
+			<div class="heading">
+				
+
+
+						Redirect
+
+
+			</div>
+			<div class="space"></div>
+			<div class="content3">
+				
+				<script>
+					var slideIndex = 0;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+						showDivs(slideIndex += n);
+					}
+					function showDivs(n) {
+						  var i;
+						  var x = document.getElementsByClassName("mySlides");
+						  if (n > x.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+						     x[i].style.display = "none";
+						  }
+						  x[slideIndex-1].style.display = "block";
+
+					}
+				</script>
+
+				  
+					<div class="w3-content w3-display-container" style="width:100%; margin: 0 0; max-width: none;" >
+						<img src="images/Kitten_cinemagraph.gif" class="mySlides" style="width:100%; height:auto; display:block;">
+						<img src="images/Aurora_cinemagraph.gif" class="mySlides" style="width:100%; display:none;">
+						<img src="images/ffx_cinemagraph.gif" class="mySlides" style="width:100%;display:none;">
+						<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+					<a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+					</div>
+
+
+
+				
+				</script>
+
+
+			</div>
+			<div class="p">
+				
+
+
+						<p>3 Addictingly Consumable Content Pages</p>
+
+
+			</div>
+		</div>
+		
+		<div id="anchor4">
+			<div class="space">
+				
+
+
+
+
+
+			</div>
+			<div class="heading">
+				
+
+
+						4th Wall
+
+
+			</div>
+			<div class="space"></div>
+			<div class="content4">
+				
+
+			
+						<img src="images/MetaCinemagraph.gif" style="width:100%;">
+
+
+			</div>
+			<div class="p">
+				
+
+
+						<p>Go on, pierce the vale. The world is waiting...</p>
+
+
+			</div>
+		</div>
+	</div>	
+
+</body>
+</html>
